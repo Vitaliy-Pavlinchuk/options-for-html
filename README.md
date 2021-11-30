@@ -67,16 +67,9 @@ img {
     padding: 0;
     clip: rect(0 0 0 0);
     overflow: hidden;
-    }                  
-  .input:checked +  .svg{
-  margin-right: 7px;  
-  width: 16px;
-  height: 16px;
-  border-radius: 4px;
-  background-color:var(--accent-color);
-  border: 2px solid var(--accent-color);
-}
-    .svg {
+    } 
+    
+     .svg {
     margin-right: 7px;
     width: 16px;
     height: 15px;
@@ -87,3 +80,13 @@ img {
     transition-duration: var(--tr-duration);
     transition-timing-function: var(--timing-function);
 }
+
+  .input:checked +  .svg{
+  margin-right: 7px;  
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background-color:var(--accent-color);
+  border: 2px solid var(--accent-color);
+}
+   
