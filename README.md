@@ -93,3 +93,5 @@ img {
    
    # options-for-JS
    Підключаєто бібліотеку Lodash для trottle and Dedounnce   -   https://cdnjs.com/libraries/lodash.js
+   
+   библиотека дял раюотьі с галереей картинок SimpleLightbox, возьмет на себя обработку кликов по изображениям, открытие и закрытие модального окна, а также пролистывание изображений при помощи клавиатуры.    --- https://cdnjs.com/libraries/simplelightbox 
