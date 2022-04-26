@@ -90,3 +90,6 @@ img {
   border: 2px solid var(--accent-color);
 }
    
+   
+   # options-for-JS
+   Підключаєто бібліотеку Lodash для trottle and Dedounnce   -   https://cdnjs.com/libraries/lodash.js
