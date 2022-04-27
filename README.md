@@ -95,3 +95,31 @@ img {
    Підключаєто бібліотеку Lodash для trottle and Dedounnce   -   https://cdnjs.com/libraries/lodash.js
    
    библиотека дял раюотьі с галереей картинок SimpleLightbox, возьмет на себя обработку кликов по изображениям, открытие и закрытие модального окна, а также пролистывание изображений при помощи клавиатуры.    --- https://cdnjs.com/libraries/simplelightbox 
+   
+   
+   
+   #настройки для sass
+   
+   {
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css"
+        },
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/css"
+        }
+    ],
+    "liveSassCompile.settings.excludeList": [
+        "**/node_modules/**",
+        ".vscode/**"
+    ],
+    "liveSassCompile.settings.generateMap": true,
+    "liveServer.settings.port": 1235,
+    "liveSassCompile.settings.autoprefix": null,
+
+    
+}
