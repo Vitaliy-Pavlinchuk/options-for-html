@@ -33,6 +33,9 @@ img {
     height: auto;
 }
 
+
+
+
 Для правильного скрытия заголовков используем паттерн -
 .visually-hidden {
     position: absolute;
@@ -123,3 +126,40 @@ img {
 
     
 }
+
+ # options-for-React
+      
+В корне проекта должна быть папка
+.github\workflows
+в ней файл
+deploy
+В файле описание деплоя:
+name: Build and deploy to GitHub Pages
+on:
+  push:
+    branches: [main]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout :bellhop_bell:
+        uses: actions/checkout@v2.3.1
+      - name: Install, lint, build :wrench:
+        run: |
+          npm install
+          npm run lint:js
+          npm run build
+      - name: Deploy :rocket:
+        uses: JamesIves/github-pages-deploy-action@4.1.0
+        with:
+          branch: gh-pages
+          folder: build
+В файле package.json
+должна быть строка:
+"homepage": "https://**USERNAME_GITHUB**.github.io/goit-react-hw-01-components/",
+Заменить **USERNAME_GITHUB**  на имя пользователя из гитхаб
+В настройках репозитория в разделе Pages выбрать ветку gh-pages /
+Не забудь в настройках репозитория в разделе Actions / General
+Поставить галочку напротив Workflow permissions
+Read and write permissions
+
