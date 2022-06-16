@@ -163,3 +163,30 @@ jobs:
 Поставить галочку напротив Workflow permissions
 Read and write permissions
 
+
+OPTIONS SETTINGS.GSON    для ноди
+{
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 20,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+
+  "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "window.zoomLevel": 1,
+  "[handlebars]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "liveSassCompile.settings.autoprefix": [
+  
+  ]
+}
+
