@@ -164,7 +164,7 @@ jobs:
 Read and write permissions
 
 
-OPTIONS SETTINGS.GSON    для ноди
+#OPTIONS SETTINGS.GSON    для ноди
 {
   "files.autoSave": "afterDelay",
   "editor.fontSize": 20,
